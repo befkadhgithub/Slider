@@ -1,0 +1,28 @@
+body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+}
+
+.image-track {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+    height: 300px;
+    display: flex;
+    gap: 2rem;
+    transition: .9s ease;
+}
+
+.image-track img {
+    height: 400px;
+    width: 320px;
+    object-fit: cover;
+    object-position: 100% 50%;
+    transition: .7s ease;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
